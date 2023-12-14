@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(229, 238, 241);
+}
+.box{
+    /* border: 3px solid black; */
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quotebox{
+    background-color: rgb(192, 228, 240);
+    /* border: 2px solid black; */
+    width: 600px;
+    height: 55vh;
+    border-radius: 35px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.resultbox{
+    border: 2px solid rgb(88, 154, 170);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 380px;
+    height: 10vh;
+    border-radius: 35px;
+    
+}
+button{
+    background-color: rgb(149, 196, 207);
+    border: none;
+    padding: 15px 25px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    border-radius: 30px;
+    color: rgb(14, 14, 14);
+    cursor: pointer;
+}
+#text{
+    position: relative;
+    top: 8px; 
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input{
+    background-color:rgb(192, 228, 240) ;
+    border-radius: 15px;
+    width: 100px;
+    margin: 10px;
+    padding: 5px 8px;
+}
