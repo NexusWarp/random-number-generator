@@ -1,1 +1,1 @@
-# random number generator using javascript
+# random number generator using javascript.
